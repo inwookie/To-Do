@@ -1,3 +1,6 @@
+// Variable could be assigned using var, const, and let.
+// However, one should strive to use const as a default and let only when one thinks that the assigned value need to be changed.
+// As a result, var should not be used.
 const calculator = {
   add: function (a, b) {
     return a + b;
