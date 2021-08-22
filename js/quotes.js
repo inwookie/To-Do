@@ -57,3 +57,16 @@ const financeQuotes = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = financeQuotes.quote;
 author.innerText = financeQuotes.author;
+
+const quoteShow = document.querySelector(".quote");
+
+function onSubmit() {
+  quoteShow.classList.remove("hidden");
+}
+
+document.querySelector(".login-form").addEventListener("submit", onSubmit);
+
+if (savedUsername !== null) {
+  quoteShow.classList.remove(HIDDEN_CLASSNAME);
+} else {
+}
