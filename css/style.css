@@ -20,7 +20,7 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
@@ -30,10 +30,37 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
   z-index: -1;
 }
 
+.overlay-opacity {
+  background: rgba(0, 0, 0, 0.7);
+}
+
 .clock {
+  margin-top: 300px;
   font-size: 100px;
+  /* text-shadow: 1px 1px cadetblue; */
+  text
+}
+
+.greeting {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote {
+  margin-top: 20px;
+}
+
+.todo-form {
+  position: flex;
+}
+
+.weather {
+  font-size: 50px;
+  position:absolute;
+  margin-right: 100px;
 }

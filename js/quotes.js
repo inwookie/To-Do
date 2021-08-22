@@ -59,14 +59,20 @@ quote.innerText = financeQuotes.quote;
 author.innerText = financeQuotes.author;
 
 const quoteShow = document.querySelector(".quote");
+const overlayChange = document.querySelector(".overlay");
+const todoShow = document.querySelector(".todo-form");
 
 function onSubmit() {
   quoteShow.classList.remove("hidden");
+  overlayChange.classList.remove("overlay-opacity");
+  todoShow.classList.remove("hidden");
 }
 
 document.querySelector(".login-form").addEventListener("submit", onSubmit);
 
 if (savedUsername !== null) {
-  quoteShow.classList.remove(HIDDEN_CLASSNAME);
+  quoteShow.classList.remove("hidden");
+  overlayChange.classList.remove("overlay-opacity");
+  todoShow.classList.remove("hidden");
 } else {
 }
