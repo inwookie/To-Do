@@ -53,7 +53,7 @@ const quotes = [
 const quote = document.querySelector(".quote span:first-child");
 const author = document.querySelector(".quote span:last-child");
 
-const financeQuotes = quotes[Math.round(Math.random() * quotes.length)];
+const financeQuotes = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = financeQuotes.quote;
 author.innerText = financeQuotes.author;
