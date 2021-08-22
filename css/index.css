@@ -1,5 +1,5 @@
 .bgimg {
-display:flex;
+  display: flex;
   position: absolute;
   top: 0;
   left: 0;
@@ -10,5 +10,3 @@ display:flex;
 .clock {
   position: absolute;
 }
-
-.
