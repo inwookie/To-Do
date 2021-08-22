@@ -42,7 +42,6 @@ body {
   margin-top: 300px;
   font-size: 100px;
   /* text-shadow: 1px 1px cadetblue; */
-  text
 }
 
 .greeting {
@@ -61,6 +60,6 @@ body {
 
 .weather {
   font-size: 50px;
-  position:absolute;
+  position: absolute;
   margin-right: 100px;
 }
