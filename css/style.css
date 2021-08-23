@@ -34,7 +34,7 @@ body {
 }
 
 #stars {
-  position: fixed;
+  position: absolute;
   /* overflow: hidden; */
   top: 0;
   left: 0;
@@ -67,7 +67,7 @@ body {
   height: 90%;
   width: 95%;
   margin-bottom: 40px;
-  position: absolute;
+  /* position: absolute; */
   /* margin-bottom: 100px; */
   border-radius: 50px;
 }
