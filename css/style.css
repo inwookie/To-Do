@@ -7,6 +7,7 @@
 
 * {
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
@@ -26,14 +27,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: left;
+  /* justify-content: center; */
   position: relative;
   z-index: -3;
   font-size: 12px;
 }
 
 #stars {
-  overflow: hidden;
   position: fixed;
   /* overflow: hidden; */
   top: 0;
@@ -169,8 +169,8 @@ li button {
   }
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .overlay {
-    font-size: 7rem;
+  : 7rem;
   }
-}
+} */
