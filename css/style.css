@@ -80,7 +80,7 @@ body {
 
 .clock {
   margin-top: 300px;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 500;
   margin-bottom: 35px;
   /* text-shadow: 1px 1px cadetblue; */
@@ -162,14 +162,20 @@ li button {
   margin-right: 100px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .clock {
     font-size: 7rem;
   }
 }
 
-/* @media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .overlay {
-  : 7rem;
+    width: 70%;
   }
-} */
+}
+
+@media (max-width: 600px) {
+  .login-form {
+    font-size: 7rem;
+  }
+}
