@@ -1,6 +1,9 @@
 .quote {
   position: absolute;
   bottom: 0;
+  top: 0;
   width: 500px;
-  margin-bottom: 20px;
+  z-index: -1;
+  /* /* margin-bottom: 20px; */
+  padding-top: 10px;
 }
