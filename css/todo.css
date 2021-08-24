@@ -16,25 +16,57 @@
   font-weight: 400;
 }
 .todo-form input:focus {
-  font-size: 20px;
+  font-size: 1.7em;
   border: 1.5px solid lightgray;
 }
 
 .todo-list {
-  width: 200px;
+  width: 300px;
+  /* position: relative; */
 }
 li {
   width: 100%;
+  padding: 10px;
   position: relative;
-  padding: 5px 0px;
   border-bottom: 1px solid transparent;
-  will-change: border-color;
-  transition: border-color 0.5s ease-in-out;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  word-wrap: break-word;
+  /* overflow: hidden; */
+  /* will-change: border-color;
+  transition: border-color 0.5s ease-in-out; */
+}
+
+li span {
+  width: 80%;
+}
+li:nth-of-type(1n + 4) {
+  display: none;
 }
 
 li button {
+  width: 20%;
+  /* padding-left: 20px; */
+  border: 0;
   position: absolute;
+  margin-left: 75%;
   background-color: transparent;
-  right: 0;
   transition: opacity 0.5s ease-in-out;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+@media (max-width: 500px) {
+  .todo-list {
+    width: 200px;
+  }
+  li {
+    font-size: 10px;
+  }
+  li button {
+    font-size: 10px;
+  }
 }
