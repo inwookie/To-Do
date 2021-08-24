@@ -29,5 +29,6 @@
   }
   .login-form input:focus {
     font-size: 1.3em;
+    border: 2px solid lightgray;
   }
 }
