@@ -1,0 +1,27 @@
+.greeting {
+  font-size: 35px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.login-form ::placeholder {
+  color: whitesmoke;
+}
+.login-form input {
+  color: whitesmoke;
+  border: 2px solid lightgray;
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  transition: 0.3s ease-out;
+}
+.login-form input:focus {
+  font-size: 20px;
+  border: 3px solid lightgray;
+}
+
+@media (max-width: 600px) {
+  .login-form {
+    font-size: 7rem;
+  }
+}

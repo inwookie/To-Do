@@ -1,0 +1,41 @@
+.overlay {
+  position: absolute;
+  /* display: block; */
+  margin-top: 200px;
+  bottom: 0;
+  height: 75vh;
+  width: 40%;
+  /* top: 0;
+    left: 0; */
+  /* background: rgba(0, 0, 0, 0.3) */
+  z-index: -1;
+  opacity: 1;
+  transition: 0.5s ease;
+  cursor: pointer;
+  background: rgba(30, 31, 30, 0.6);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.overlay-opacity {
+  background: rgba(51, 51, 51, 0.6);
+  height: 90%;
+  width: 95%;
+  margin-bottom: 40px;
+  /* position: absolute; */
+  /* margin-bottom: 100px; */
+  border-radius: 50px;
+}
+
+.overlay:hover {
+  opacity: 0.5;
+}
+.overlay:hover .overlay {
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .overlay {
+    width: 70%;
+  }
+}
