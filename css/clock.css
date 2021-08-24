@@ -2,12 +2,12 @@
   margin-top: 300px;
   font-size: 4em;
   font-weight: 500;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   /* text-shadow: 1px 1px cadetblue; */
 }
 
 @media (min-width: 1000px) {
   .clock {
-    font-size: 7rem;
+    font-size: 6.5rem;
   }
 }

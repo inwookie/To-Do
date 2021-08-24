@@ -1,5 +1,5 @@
 .greeting {
-  font-size: 35px;
+  font-size: 3em;
   margin-bottom: 30px;
   font-weight: 300;
 }
@@ -21,7 +21,7 @@
 }
 
 @media (max-width: 600px) {
-  .login-form {
-    font-size: 7rem;
+  .greeting {
+    font-size: 2em;
   }
 }

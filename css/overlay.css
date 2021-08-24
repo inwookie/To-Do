@@ -3,7 +3,7 @@
   /* display: block; */
   margin-top: 200px;
   bottom: 0;
-  height: 75vh;
+  height: 70%;
   width: 40%;
   /* top: 0;
     left: 0; */
@@ -37,5 +37,10 @@
 @media (max-width: 1200px) {
   .overlay {
     width: 70%;
+  }
+}
+@media (min-width: 1600px) {
+  .overlay {
+    height: 75%;
   }
 }
