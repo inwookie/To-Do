@@ -1,5 +1,27 @@
 .weather {
-  font-size: 50px;
+  font-size: 20px;
   position: absolute;
-  margin-right: 100px;
+  right: 0;
+  padding: 10px;
+}
+
+.weather-city {
+  font-size: 1em;
+  font-weight: 200;
+  margin-right: 5px;
+}
+
+.weather-stat {
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+@media (max-width: 770px) {
+  .weather-city {
+    font-size: 0.7em;
+  }
+
+  .weather-stat {
+    font-size: 0.5em;
+  }
 }

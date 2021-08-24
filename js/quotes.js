@@ -1,52 +1,43 @@
 const quotes = [
   {
-    quote:
-      "Invest for the long haul. Don’t get too greedy and don’t get too scared.",
-    author: "Shelby M.C. Davis",
+    quote: "Do one thing every day that scares you.",
+    author: "Eleanor Roosevelt",
   },
   {
-    quote:
-      "The best way to measure your investing success is not by whether you’re beating the market but by whether you’ve put in place a financial plan and a behavioral discipline that are likely to get you where you want to go.",
-    author: "Benjamin Graham",
+    quote: "The secret of getting ahead is getting started.",
+    author: "Mark Twain",
   },
   {
-    quote:
-      "Waiting helps you as an investor and a lot of people just can’t stand to wait. If you didn’t get the deferred-gratification gene, you’ve got to work very hard to overcome that.",
-    author: "Charlie Munger",
+    quote: "It’s hard to beat a person who never gives up.",
+    author: "Babe Ruth",
   },
   {
-    quote:
-      "The stock market is a device to transfer money from the impatient to the patient.",
-    author: "Warren Buffett",
+    quote: "Everything you can imagine is real.",
+    author: "Pablo Picasso",
   },
   {
-    quote:
-      "Your success in investing will depend in part on your character and guts and in part on your ability to realize, at the height of ebullience and the depth of despair alike, that this too, shall pass.",
-    author: "Jack Bogle",
+    quote: "Whatever you are, be a good one.",
+    author: "Abraham Lincoln",
   },
   {
-    quote:
-      "Thousands of experts study overbought indicators, head-and-shoulder patterns, put-call ratios, the Fed’s policy on money supply…and they can’t predict markets with any useful consistency, any more than the gizzard squeezers could tell the Roman emperors when the Huns would attack.",
-    author: "Peter Lynch",
+    quote: "If opportunity doesn’t knock, build a door.",
+    author: "Kurt Cobain",
   },
   {
-    quote:
-      "The function of economic forecasting is to make astrology look respectable.",
-    author: "John Kenneth Galbraith",
+    quote: "Nothing will work unless you do.",
+    author: "Maya Angelou",
   },
   {
-    quote:
-      "Though tempting, trying to time the market is a loser’s game. $10,000 continuously invested in the market over the past 20 years grew to more than $48,000. If you missed just the best 30 days, your investment was reduced to $9,900.",
-    author: "Christopher Davis",
+    quote: "Hey sky, take off you hat, I'm on my way!",
+    author: "Vakebtuba Tereshkova",
   },
   {
-    quote:
-      "You make most of your money in a bear market, you just don’t realize it at the time.",
-    author: "Shelby Cullom Davis",
+    quote: "I would like to die on Mars. Just not on impact",
+    author: "Elon Musk",
   },
   {
-    quote: "An investment in knowledge pays the best interest.",
-    author: "Benjamin Franklin",
+    quote: "I see Earth! It is so beautiful.",
+    author: "Yuri Gagarin",
   },
 ];
 
