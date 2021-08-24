@@ -13,7 +13,7 @@
   background-color: transparent;
   padding: 10px;
   text-align: center;
-  transition: 0.3s ease-out;
+  transition: 0.2s ease-out;
 }
 .login-form input:focus {
   font-size: 20px;
@@ -28,6 +28,7 @@
     font-size: 1em;
   }
   .login-form input:focus {
+    will-change: transition;
     font-size: 1.3em;
     border: 2px solid lightgray;
   }

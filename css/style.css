@@ -6,6 +6,7 @@
 @import "quote.css";
 @import "todo.css";
 @import "weather.css";
+@import "music-player.css";
 
 .hidden {
   display: none;
@@ -33,15 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   position: relative;
   z-index: -3;
   font-size: 12px;
-}
-
-.music-player {
-  position: absolute;
-  left: 0;
-  padding: 12px;
-  margin-left: 5px;
 }
