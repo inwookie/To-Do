@@ -26,8 +26,7 @@ This project was created based on the inspiration of the dynamic movements of th
 
 ### Front-end
 
-<img height="30" src="https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=Javascript&logoColor=F7DF1E"/>
-<img height="30" src="https://img.shields.io/badge/Html-black?style=for-the-badge&logo=Html5&logoColor=E34F26"/><img height="30" src="https://img.shields.io/badge/CSS-black?style=for-the-badge&logo=Css3&logoColor=1572B6"/>
+<img height="30" src="https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=Javascript&logoColor=F7DF1E"/> <img height="30" src="https://img.shields.io/badge/Html-black?style=for-the-badge&logo=Html5&logoColor=E34F26"/> <img height="30" src="https://img.shields.io/badge/CSS-black?style=for-the-badge&logo=Css3&logoColor=1572B6"/>
 
 ## Theory
 
