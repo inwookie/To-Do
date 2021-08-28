@@ -7,10 +7,6 @@ This project was created based on the inspiration of the dynamic movements of th
 
 [To-Do List Demo](https://inwookie.github.io/To-Do/)
 
-<image src="./demo/demo.gif" />
-
-## Available Backgrounds
-
 <div align="center">
 <img src="demo/01.png" width=400 >
 <img src="demo/02.png" width=400 >
