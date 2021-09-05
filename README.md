@@ -1,4 +1,4 @@
-# To-Do List | Vanilla JS
+# To Do List | Vanilla JS
 
 This project was created based on the inspiration of the dynamic movements of the stars. It used OpenWeather API to gain geolocation feature and quotes and background is shown at random order.
 <br />
