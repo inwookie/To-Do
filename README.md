@@ -5,7 +5,7 @@ This project was created based on the inspiration of the dynamic movements of th
 
 ## Demo
 
-[To-Do List Demo](https://inwookie.github.io/To-Do/)
+[To-Do List Demo](https://inwookie.github.io/to-do/)
 
 <div align="center">
 <img src="demo/01.png" width=400 >
